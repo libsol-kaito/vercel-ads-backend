@@ -1,0 +1,12 @@
+{
+  "name": "vercel-ads-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "googleapis": "^164.1.0",
+    "node-fetch": "^3.3.2",
+    "google-ads-api": "^13.0.0"
+  }
+}
