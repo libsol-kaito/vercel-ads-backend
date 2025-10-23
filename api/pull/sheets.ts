@@ -1,7 +1,6 @@
-import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { google } from "googleapis";
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(req: any, res: any) {
   if (req.method === "OPTIONS") return res.status(200).end();
   try {
     const sheetId = (req.query.sheetId as string) || process.env.SHEETS_ID!;
