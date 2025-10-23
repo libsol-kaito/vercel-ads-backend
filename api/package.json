@@ -7,6 +7,6 @@
   "dependencies": {
     "google-ads-api": "^13.0.0",
     "node-fetch": "^3.3.2",
-    "googleapis": "^141.0.0"
+    "googleapis": "^164.1.0"
   }
 }
